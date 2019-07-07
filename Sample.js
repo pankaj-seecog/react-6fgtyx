@@ -6,6 +6,9 @@ render(){
   return (
     <div>
 The count is {this.props.count}
+<hr/>
+<button onClick={this.props.inc}>++</button> |
+<button onClick={this.props.dec}>--</button>
     </div>
   )
 }
