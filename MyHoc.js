@@ -23,10 +23,12 @@ this.setState((pre)=>{
 // })
     }
 
+  
+
     decCount = ()=>{
-this.setState((pre)=>{
+this.setState((x)=>{
   return {
-    count : pre.count-1
+    count : x.count-1
   }
 })
     }
