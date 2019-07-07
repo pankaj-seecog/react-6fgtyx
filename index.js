@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Sample from './Sample';
+import India from './India';
+import Pakistan from './Pakisten';
 import './style.css';
 
 class App extends Component {
@@ -23,4 +24,4 @@ class App extends Component {
   }
 }
 
-render(<Sample />, document.getElementById('root'));
+render(<div><India /><hr/><Pakistan/></div>, document.getElementById('root'));
